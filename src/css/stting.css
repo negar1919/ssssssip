@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  overflow-x: hidden;
+}
+#app{
+  overflow-x: hidden;
+}
+.tasvir {
+
+  overflow: hidden;
+
+}
+.tasvir img {
+ scale: .9;
+}
+
+
+.menufooter{
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+  width: 100%;
+
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  transform: rotate(0deg) !important; 
+}
+.swiper-button-prev ,
+.swiper-button-next  {
+  transform: rotate(0deg) !important;
+}
+@media  only screen and (max-width:760px) {
+.comment-next{
+ right: 95% !important;
+ 
+}  
+
+
+.footer-menu > li:last-child  {
+position: absolute;
+left: 10px;
+
+}
+
+}
+@media only screen and (max-width:361px){
+   .footer-menu > li:last-child  {
+position: static;
+left: 0;
+
+}
+
+
+ /* .buttns1{
+  height: 300px;
+ } */
+ 
+  .tasvir img {
+    height: 200px !important;
+  width: 200px;
+  }
+.swiper-button-next  {
+  transform: rotate(0deg) !important;
+  right: 85% !important;
+}
+}
+@media only screen and (max-width:546px){
+   .footer-menu > li:last-child  {
+position: static;
+left: 0;
+
+}
+}
+
+  @font-face {
+    font-family: iran;
+    src: url("../fonts/IRANSans-web.woff2");
+    src: url("../fonts/IRANSans.eot");
+    src: url("../fonts/IRANSans.ttf");
+    src: url("../fonts/IRANSans.woff");
+    src: url("../fonts/IRANSans.woff2");
+  }
+
+
+
+
+  .filmelment{
+  width: 270px;
+  height: 40px;
+  box-sizing: border-box;
+  padding-left: 17px;
+    background-color: #1CB560;
+    color: white;
+    font-family:iran;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    right: 75px;
+    margin: 15px 0;
+    font-weight: 500;
+    font-size: 11px;
+    cursor: pointer;
+
+  }
+
+ .filmelment img{
+        font-size : 15px;
+        width: 70px;
+        height: 70px;
+        position: relative;
+        font-weight: bolder;
+        right: 15px;
+  }
+
+  .parafilm{
+    color: white;
+    font-family: iran;
+    position: relative;
+    right: 75px;
+    
+  }
+
+  
+#sub-btn {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 116px;
+height: 40px;
+padding: 0;
+  }
+
+#sub-btn img {
+    width: 34px !important;
+    height: 34px;
+    display: inline-block;
+   
+  }
+  #sub-btn p {
+    display: inline-block;
+     position: relative;
+    left: 7px;
+  
+  }
+
+  .right ul li:last-child img{
+
+  fill: green;  
+  }
+ 
+  #filmidselect{
+    height:400px ;
+    overflow: hidden;
+  }
+  #filmidselect p{
+   font-size: 12px;
+   font-weight: 100;
+  }
+  
+  #accordion-container{
+    color: wheat !important;
+  }

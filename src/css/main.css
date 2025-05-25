@@ -1,0 +1,7 @@
+
+@import "./mobile/mobile.css";
+@import "./desktop/desktop.css" only screen and (min-width:1000px);
+
+
+
+@import "./stting.css";

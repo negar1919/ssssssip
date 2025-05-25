@@ -1,0 +1,108 @@
+.comment{
+    width: 100%;
+    background-color: #151515;
+    margin-top: -6px;
+    height: 38vh;
+    .member{
+        color: #fff;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px; 
+       padding: 33px 33px 0px 0px;
+       font-family: iran;
+      
+    }
+    
+    .swiper commentswiper{
+        width: 100%;
+        height: 100%;
+      }
+  
+      .swiper-slide {
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        background: #151515;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column nowrap;
+
+        .moshakhasat{
+            width: 79%;
+            height: 25vh;
+            display: flex;
+            flex-flow: row nowrap;
+            border: 1px solid #32343C;
+            border-radius: 11px;
+     background-color: #1A1A1A;
+     .pro{
+        width: 100%;
+        padding:21px 35px;
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 11px;
+        img{
+            width: 33px;
+            height: 4.4vh;
+            object-fit: cover;
+        }
+        .firstname{
+
+            color: #959ba2;
+            font-family: iran;
+            font-size: 9px;
+            font-weight: 100;
+            line-height: 27px;
+         }
+     }
+    
+     .cama{
+        width: 100%;
+        padding: 7px 157px 0px 0px;
+        img{
+            width: 53px;
+            height: 45px;
+            object-fit: cover;
+        }
+     }
+   
+        
+    }
+    .nazar{
+        width: 73%;
+        font-weight: 400;
+    line-height: 18px;
+    height: 75px;
+    font-size: 9px;
+    color: #f9f9f9;
+      margin-top: -99px;
+      font-family: iran;
+    }
+
+        
+      }
+
+      .comment-next::after, .comment-prev::after {
+        font-size: 16px;
+        color: white;
+    
+      }
+      
+      @media (max-width: 760px) {
+        .comment-next {
+          right: 10px;
+          transform: rotate(90deg);
+        
+
+        }
+      
+        .comment-prev {
+          left: 10px;
+          transform: rotate(90deg);
+
+
+        }
+    
+      }
+}

@@ -1,0 +1,79 @@
+.frees22{
+  background-color: #151515;
+  color: #fff;
+  font-family: iran;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  padding: 64px 85px 0px 0px;
+  display: flex;
+
+  flex-flow: column nowrap;
+
+}
+.mohtava{
+  display: flex;
+  flex-flow: column nowrap;;
+  padding: 5px;
+  background-color: #151515;
+  /* height: 1px; */
+  .swiper smohtava {
+      width: 100%;
+      height: 100%;
+      
+    }
+
+    .swiper-slide {
+      font-size: 18px;
+      background: #151515;
+      display: flex;
+
+  flex-flow: column nowrap;
+
+      img{
+        width: 69%;
+        border-radius: 10px;
+        filter: brightness(60%);
+      }
+    }
+    .namefree{
+      width: 70%;
+      color: #fff;
+      z-index: 1;
+      direction: rtl;
+  font-size: 13px;
+  text-align: right;
+  margin-top: 11px;
+  cursor: pointer;
+  font-weight: 100;
+  }
+  }
+
+.smohtava-next, .smohtava-prev {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.smohtava-next::after, .smohtava-prev::after {
+  font-size: 16px;
+  color: white;
+}
+
+@media (max-width: 760px) {
+  .smohtava-next {
+    right: 10px;
+    transform: rotate(90deg);
+  }
+
+  .smohtava-prev {
+    left: 10px;
+    transform: rotate(90deg);
+  }
+
+}

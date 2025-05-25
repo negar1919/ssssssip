@@ -1,0 +1,84 @@
+.watch{
+    width: 100%;
+    background-color: #0D0D0D;
+    display: flex;
+    flex-flow: row nowrap;
+    .how{
+        display: flex;
+        flex-flow: column nowrap;
+        text-align: right;
+        width: 50%;
+        margin-top: 66px;
+        .tamasha2{
+            color: #fff;
+            font-family: iran;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 18px;
+            margin-right: 77px;
+        }
+        .theree{
+            color: #d8d8d8;
+            font-family: iran;
+            font-size: 13px;
+            font-weight: 100;
+            line-height: 27px;
+            margin-right: 77px;
+           margin-top: 15px;
+           width: 61%;
+        }
+        .laptopp , .mobilee, .consol{
+            display: flex;
+            flex-flow: row nowrap;
+            margin-right: 77px;
+            gap: 9px;
+            margin-top: 20px;
+    
+            img{
+        width: 4%;
+            }
+            p{
+                color: #fff;
+                font-family: iran;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 15px;
+            }
+    
+        }
+        .tii,.tii1,.ti3{
+            color: #a1a1a1;
+            font-family: iran;
+            font-size: 11px;
+            font-weight: 400;
+            line-height: 14px;
+            margin-right: 117px;
+           margin-top: 15px;
+        }
+    }
+     .tasvirtamasha{
+        width: 50%;
+        img{
+            width: 100%;
+        }
+    } 
+    .buuy1{
+        margin: 66px 99px;
+        .mtnn1{
+            all: unset;
+            padding: 10px 14px;
+            box-sizing: border-box;
+            background-color: #606060;
+            color: aliceblue;
+            cursor: pointer;
+            border-radius: 5px;
+            font-family: iran;
+                     font-size: 11px;
+                     font-weight: bold;
+            transition: 700ms;
+            &:hover{
+                background-color: #828282;
+            }
+        }
+    }
+}

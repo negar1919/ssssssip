@@ -1,0 +1,83 @@
+.children{
+    width: 100%;
+    background: -webkit-linear-gradient(245deg, #05c3ff 0, #151515 40%);
+    display: flex;
+    flex-flow: column nowrap;
+    padding-top: 32px;
+    padding: 18px 0px;
+    .girl{
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 9px;
+        padding: 0px 0px;
+
+        img{
+    width: 100%;
+        }
+    }
+    .koodakan{
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+         margin-right: 0px;
+         
+        .tamasha3{
+            color: #fff;
+            font-family: iran;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 18px;
+         margin-top: 15px;
+
+        }
+        .thereee{
+            color: #d8d8d8;
+            font-family: iran;
+            font-size: 13px;
+            font-weight: 100;
+            line-height: 27px;
+           margin-top: 15px;
+           width: 488px;
+        }
+        }
+        .koodak{
+            width: 100%;
+            display: flex;
+            flex-flow: row nowrap;
+      gap: 33px;
+      margin-top: 33px;
+      margin-right: 66px;
+        .buuy2 , .buuy3{
+            height: 32px;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+            background-color: #fcfbfb;
+            color: #151515;
+            cursor: pointer;
+            border-radius: 10px;
+            font-family: iran;
+            font-size: 15px;
+            transition: 500ms;
+            padding: 22px;
+
+            font-weight: 600;
+            &:hover{
+                background-color: #e4e3e3;
+            }
+            .mtnn2 , .mtnn3{ 
+                color: #151515;
+                font-family: iran;
+                font-size: 11px;
+                font-weight: bold;
+                flex-flow: row nowrap;
+                justify-content: center;
+                align-items: center;
+           
+            }
+            }
+            }
+}

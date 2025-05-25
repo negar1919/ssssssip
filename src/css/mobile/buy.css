@@ -1,0 +1,93 @@
+.eshterack{
+    width: 100%;
+    background-color: #151515;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 99px 0px;
+    .photo{
+        margin-right: 30px; 
+        img{
+            width: 100%;
+        }
+    }
+    .desck{
+        display: flex;
+        flex-flow: column nowrap;
+        text-align: right;
+       padding-top: 11px;
+        .tamasha{
+            color: #fff;
+            font-family: iran;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 18px;
+            margin-right: 77px;
+        }
+        .there{
+            color: #d8d8d8;
+            font-family: iran;
+            font-size: 13px;
+            font-weight: 100;
+            line-height: 27px;
+            margin-right: 77px;
+           margin-top: 15px;
+        }
+        .laptop , .mobile, .consol{
+            display: flex;
+            flex-flow: row nowrap;
+            margin-right: 77px;
+            gap: 9px;
+            margin-top: 20px;
+
+            img{
+        width: 4%;
+            }
+            p{
+                color: #fff;
+                font-family: iran;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 15px;
+            }
+
+        }
+        .ti,.ti1,.ti3{
+            color: #a1a1a1;
+            font-family: iran;
+            font-size: 11px;
+            font-weight: 400;
+            line-height: 14px;
+            margin-right: 117px;
+           margin-top: 15px;
+        }
+        .buy1{
+            width: 43%;
+            height: 52px;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+            background-color: #1CB561;
+            color: white;
+            cursor: pointer;
+            border-radius: 10px;
+            font-family: iran;
+            font-size: 15px;
+            transition: 500ms;
+
+            font-weight: 500;
+             margin: 37px 79px;
+            &:hover{
+                background-color: #17924E;
+            }
+            .mtn1{ 
+                color: rgba(255, 255, 255, .75);;
+                font-family: iran;
+                font-size: 11px;
+                font-weight: bold;
+           
+            }
+            }
+    }
+}

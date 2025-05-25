@@ -1,0 +1,306 @@
+
+  .online{
+    width: 100%;
+    position: relative;
+      img{
+        width: 100%;
+        height: 114vh;
+        object-fit: cover;
+      }
+   
+      .ab{
+          width: 100%;
+          position: absolute;
+        
+          top: 0;
+          z-index: 2;
+          display: flex;
+          flex-flow: column nowrap;
+           .cinama{
+            width: 100%;
+            height: 99px;
+            color: #fff;
+            font-weight: bold;
+            font-size: 23px;
+            line-height: 20px;
+            text-align: center;
+            margin-top: 84px;
+       font-family: iran;
+
+           }
+          .ekran{
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 31px;
+        align-items: center;
+        justify-content: center;
+        .ekran1{
+
+            display: flex;
+            flex-flow: row nowrap;
+            img{
+              
+                    width: 19%;
+                    height: auto;
+                    object-fit: cover;
+                  
+            }
+            .mtnekran{
+                font-style: normal;
+                font-weight: 100;
+                font-size: 12px;
+                line-height: 24px;
+                color: #d8d8d8;
+                margin-top: 23px;
+       font-family: iran;
+
+            }
+          }
+          }
+          .filima{
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            justify-content: center;
+    
+   .twos{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 31px  !important;
+    align-items: center;
+    justify-content: center;
+   
+            .haftad{
+                width: 34%;
+                height: 33vh;
+                display: flex;
+                flex-flow: row nowrap;
+                border: 1px solid #32343C;
+                border-radius: 11px;
+         background-color: #221115;
+
+                img{
+                    width: 25%;
+                    height: 28vh;
+                    margin: 17px;
+                    border-radius: 6px;
+                }
+                .ce{
+                    display: flex;
+                    flex-flow: column nowrap; 
+                }
+                .khatat{
+                    width: 100%;
+                    display: flex;
+                    flex-flow: row nowrap;
+                    .namefilim{
+                    width: 100%;
+                        font-weight: 700;
+                        margin-top: 17px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    cursor: pointer;
+    font-family: iran;
+
+                    }
+                    .shop{
+                        display: flex;
+                        flex-flow: row nowrap;
+                        border-radius: 16px;
+                        height: 27px;
+                        background-color: #130B0D;
+                        align-items: center;
+                        justify-content: center;
+                        margin-right: 107px;
+                        padding: 5px 16px;
+                        margin-top: 13px;
+                        img{
+                            width: 30%;
+                            object-fit: cover;
+                        }
+                        .kharid{
+                            width: 100%;
+                            box-sizing: border-box;
+                            font-style: normal;
+                            font-weight: 100;
+                            font-size: 11px;
+       font-family: iran;
+
+                            line-height: 24px;
+                            color: #fff;
+                        align-items: center;
+
+                        }
+                    }
+                }
+                .bahram{
+                    color: #d8d8d8;
+                    font-family: iran;
+                    font-size: 13px;
+                    font-weight: 100;
+                    line-height: 27px;
+                    margin-top: 25px;
+                }
+                .jhanr{
+                    display: flex;
+                    flex-flow: row nowrap;
+                    gap: 13px;
+                    p{
+                        border-radius: 16px;
+                        height: 27px;
+                        background-color: #130B0D;
+                        align-items: center;
+                        justify-content: center;
+                        padding:0px 11px;
+                        color: #fff;
+                        font-family: iran;
+                        font-size: 9px;
+                        font-weight: 100;
+                        line-height: 27px;
+                        margin-top: 25px;
+                    } 
+                }
+                .ticket{
+                    width: 44px;
+                    align-items: center;
+                    justify-content: center;
+                    color: #fff;
+                    font-family: iran;
+                    font-size: 9px;
+                    font-weight: 100;
+                    line-height: 27px;
+                    margin-top: 25px;
+                    border: 1px solid whitesmoke;
+                    border-radius: 5px;
+                    margin-right: 19px;
+                    padding: 6px 18px;
+                    transition: 300ms;
+                    cursor: pointer;
+                    &:hover{
+                        background-color: #130B0D;
+                    }
+                }
+            }
+          }
+        }
+        }
+        .zood{
+            width: 34%;
+            /* height: 33vh; */
+            display: flex;
+            flex-flow: row nowrap;
+            border: 1px solid #32343C;
+            border-radius: 11px;
+     background-color: #221115;
+     justify-content: center;
+     align-items: center;
+     margin: 33px 488px 0px 0px;
+
+            img{
+                width: 25%;
+                height: 28vh;
+                margin: 17px;
+                border-radius: 6px;
+            }
+            .ce1{
+                display: flex;
+                flex-flow: column nowrap; 
+            }
+            .khatat1{
+                width: 100%;
+                display: flex;
+                flex-flow: row nowrap;
+                .namefilim1{
+                width: 100%;
+                    font-weight: 700;
+                    margin-top: 17px;
+       font-family: iran;
+
+font-size: 14px;
+line-height: 24px;
+color: #fff;
+cursor: pointer;
+                }
+                .shop1{
+                    display: flex;
+                    flex-flow: row nowrap;
+                    border-radius: 16px;
+                    height: 27px;
+                    background-color: #130B0D;
+                    align-items: center;
+                    justify-content: center;
+                    margin-right: 107px;
+                    padding: 5px 16px;
+                    margin-top: 13px;
+                    img{
+                        width: 30%;
+                        object-fit: cover;
+                    }
+                    .kharid1{
+                        width: 100%;
+                        box-sizing: border-box;
+                        font-style: normal;
+                        font-weight: 100;
+                        font-size: 11px;
+       font-family: iran;
+
+                        line-height: 24px;
+                        color: #fff;
+                    align-items: center;
+
+                    }
+                }
+            }
+            .bahram1{
+                color: #d8d8d8;
+                font-family: iran;
+                font-size: 13px;
+                font-weight: 100;
+                line-height: 27px;
+                margin-top: 25px;
+            }
+            .jhanr1{
+                display: flex;
+                flex-flow: row nowrap;
+                gap: 13px;
+                p{
+                    border-radius: 16px;
+                    height: 27px;
+                    background-color: #130B0D;
+                    align-items: center;
+                    justify-content: center;
+                    padding:0px 11px;
+                    color: #fff;
+                    font-family: iran;
+                    font-size: 9px;
+                    font-weight: 100;
+                    line-height: 27px;
+                    margin-top: 25px;
+                } 
+            }
+            .ticket1{
+                width: 44px;
+                align-items: center;
+                justify-content: center;
+                color: #fff;
+                font-family: iran;
+                font-size: 9px;
+                font-weight: 100;
+                line-height: 27px;
+                margin-top: 25px;
+                border: 1px solid whitesmoke;
+                border-radius: 5px;
+                margin-right: 19px;
+                padding: 6px 18px;
+                transition: 300ms;
+                cursor: pointer;
+                &:hover{
+                    background-color: #130B0D;
+                }
+            }
+        }
+   
+        }
+    

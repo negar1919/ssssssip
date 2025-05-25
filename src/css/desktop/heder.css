@@ -1,0 +1,88 @@
+/* body{
+    background-color: cornflowerblue;
+} */
+header{
+    width: 100%;
+    /* height: 50px; */
+    background-color: #040404;
+    position: fixed;
+    z-index: 10;
+    nav{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center;
+        .right{
+            height: 100%;
+                  width: 40%;
+            display: flex;
+            flex-flow: row nowrap;
+      align-items: center;
+      .logo{
+        display: flex;
+        flex-flow: row nowrap;
+  align-items: center;
+      img{
+        width: 50%;
+        padding-right: 33px;
+   
+     }
+     .khat{
+        color: rgb(165, 164, 164);
+            
+         
+    }
+    }
+          
+            ul{
+                width: 100%;
+                height: 100%;
+                list-style: none;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: center;
+                align-items: center;
+                gap: 0px;
+            
+                li{
+                    width:  100%;
+                    display: flex;
+                    flex-flow: row nowrap;
+                    justify-content: center;
+                    align-items: center;
+                  
+           
+                            img{
+                                       width: 17%;
+                                padding-left: 5px;
+                            }
+                 
+                 
+            
+                    a{
+                        color: beige;
+                        text-decoration: none;
+                        transition: 500ms;
+                        font-family: iran;
+                        font-size: 13px;
+                        &:hover{
+                            color: gold;
+                        }
+                  
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.left{
+    padding-left: 105px;
+    img{
+        width: 100%;
+ padding-left: 5px;
+}
+}
