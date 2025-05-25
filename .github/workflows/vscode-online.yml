@@ -1,0 +1,19 @@
+name: Launch VS Code Online
+on: [workflow_dispatch]  # Manually triggered
+
+jobs:
+  vscode-online:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start code-server (VS Code Online)
+        uses: docker://codercom/code-server:latest
+        with:
+          args: --auth none --port 8080
+      - name: Expose on a public URL (using ngrok)
+        uses: gabrielecirulli/ngrok-action@v1
+        with:
+          authToken: ${{ secrets.NGROK_AUTH_TOKEN }}  # Get from https://dashboard.ngrok.com/
+          port: 8080
+      - name: Get Live URL
+        run: |
+          echo "VS Code Online is live at: https://${{ steps.ngrok.outputs.url }}"
